@@ -47,6 +47,6 @@ footer
 	text-align: center;
 	height : 600px;
 }
-:a hover {
+a:hover {
 	background-color : pink;
 }
