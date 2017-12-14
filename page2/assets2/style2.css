@@ -6,6 +6,7 @@ nav ul li  {
 	display: inline-block;
 	margin-left: 30px;
 	line-height:35px;
+
 	
 
 }
@@ -17,6 +18,7 @@ a:hover {
 nav {
 	background-color: lightblue;
 	height:35px;
+	
 	
 	}
 
@@ -32,14 +34,8 @@ nav ul #panier img {
 	margin-right: 10px;
 	margin-top:5px;
 }
-div {
-	float:right;
-	background-color: 142b47;
-}
+ 
 
-div a {
-	color: green;
-}
 
 section img {
 	width:200px;
@@ -58,4 +54,19 @@ div {
 	height:5%;
 	background-color: lightpink;
 }
+ nav ul #search{
+	position : absolute;
+	top: 8px;
+	left : 854px;
+	background-color: 142b47;
+}
+ nav ul #panier {
+	 position : absolute;
+	top: 8px;
+	left : 1100px;
+
+ }
+	 
+	
+
 	
