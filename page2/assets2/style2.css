@@ -18,6 +18,7 @@ a:hover {
 nav {
 	background-color: lightblue;
 	height:35px;
+
 	
 	
 	}
@@ -63,6 +64,7 @@ div {
 }
 
 
+
 div a {
 	color: green;
 }
@@ -84,37 +86,10 @@ footer img {
 	height:40px;
 	margin-right : 60px;
 }
-.modal{
 
 
-}
 
-.modal:before {
-	content:"";
-	position:fixed;
-	display:none;
-	background-color:rgba(0,0,0,.8);
-	top: 0;
-	left:0;
-	width:100%;
-}
 
-.modal-container{
-	position: fixed; 
-	background-color:#fff; 
-	left:50%;
-	max-width:500px;
-	padding: 20px;
-	border-radius:5px;
-	-webkit-transform:translate(-50%,-200%);
-	-ms-transform: translate (-50%,-200%);
-	transform:translate (-50%,-200%);
+
 	
-}
-p {
-	
-	margin-top:0px;
-}
-	
-	
-	
+
