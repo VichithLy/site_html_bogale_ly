@@ -1,0 +1,183 @@
+
+/* *
+{
+	border : 1px solid red;
+}
+*/
+
+body
+{
+
+
+	background-image : url(background1.png);
+	
+	/* background-size: cover;
+	background-attachment: fixed;
+	*/
+}
+
+header
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 100%;
+	height : 150px;
+	border-radius : 10px;
+	background-color : BurlyWood;
+}
+
+main
+{
+	display : inline-block;
+	width : 49%;
+	line-height : 600px;
+	text-align: center;
+	margin-left : 1.2%;
+	height : 600px;
+	
+}
+
+footer
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 100%;
+	height : 100px;
+	border-radius : 10px;
+	background-color : SaddleBrown;
+}
+
+.promos
+{
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-between;
+	align-items : center;
+	float: right;
+	width : 24%;
+	text-align: center;
+	height : 597px;
+	border : 2px solid Maroon;
+	border-radius : 10px;
+	
+}
+.defilpromo
+{
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-between;
+	align-items : center;
+}
+
+.images
+{
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-between;
+	align-items : center;
+	float : left;
+	width : 24%;
+	text-align: center;
+	height : 597px;
+	border : 2px solid Maroon;
+	border-radius : 10px;
+	
+}
+
+.defilimage
+{
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-between;
+	align-items : center;
+}
+	
+
+.acceuil1:hover,
+.acceuil1:focus 
+{
+	transform: scale(1.2);
+	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+}
+
+
+header p
+{
+	text-align : center;
+}
+
+
+.bienvenue 
+{
+  display : inline-block;
+  line-height : 120px;
+  
+  color: maroon;
+  font-family: lato;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  -webkit-animation: bounceIn 1.5s both 1s;
+  margin-top: 200px;
+}
+
+@-webkit-keyframes bounceIn{
+  0% { 
+    transform: scale(0.1); 
+    -webkit-transform: scale(0.1);
+    opacity: 0;
+  } 
+
+  60% { 
+    transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    opacity: 1;
+  } 
+
+  100% { 
+    transform: scale(1); 
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes bounceIn{
+  0% { 
+    transform: scale(0.1); 
+    -webkit-transform: scale(0.1);
+    opacity: 0;
+  } 
+
+  60% { 
+    transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    opacity: 1;
+  } 
+
+  100% { 
+    transform: scale(1); 
+    -webkit-transform: scale(1);
+  }
+}
+
+
+.images img
+{
+	display : flex;
+	width: 300px;
+}
+
+.promos img 
+{
+	display : flex;
+	width: 300px;
+}
+
+.logo 
+{
+	height : 80%;
+}
+
