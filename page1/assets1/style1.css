@@ -1,5 +1,4 @@
-
-/* *
+ /**
 {
 	border : 1px solid red;
 }
@@ -66,6 +65,8 @@ footer
 	float: right;
 	width : 24%;
 	text-align: center;
+	
+	
 	height : 560px;
 	border-left : 5px dotted SandyBrown;
 	border-right: 5px dotted SandyBrown;
@@ -74,22 +75,48 @@ footer
 	
 }
 
-#defilpromo
+.defilpromo
 {
 	display : flex;
 	flex-direction : column-reverse;
 	justify-content : space-between;
 	align-items: center;
-	height : 590px;
+	height : 460px;
+	width : 100%;
+	overflow:auto;
+	
 	
 }	
 
-#defilpromo img 
+.defilpromo img 
 {
 	display : flex;
-	width: 50%;
+	height : 450px;
+	width: auto;
+	margin-top : 25px;
+	border: 1px solid SandyBrown;
+	
 }
 
+.titrepromo
+{
+	display : inline-block;
+	width : 100%;
+	height : 100px;
+	
+	font-size : xx-large;
+	font-family : "GROBOLD";
+	
+	color : Brown;
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 100%;
+	height : 100px;
+	
+	
+}
 
 
 
@@ -127,6 +154,7 @@ footer
 {
 	display : flex;
 	width: 50%;
+
 }
 
 /* --------------------------------------- PARTIE LOGO --------------------------------------- */
@@ -146,20 +174,33 @@ footer
 	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
 }
 
+@font-face {
+	font-family: 'Conv_GROBOLD';
+	src: url('fonts/GROBOLD.eot');
+	src: local('☺'), url('fonts/GROBOLD.woff') format('woff'), url('fonts/GROBOLD.ttf') format('truetype'), url('fonts/GROBOLD.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
-.bienvenue 
+.bienvenue
 {
-  display : inline-block;
-  line-height : 60px;
-  color: maroon;
-  font-family: lato;
-  font-weight: 500;
-  font-size: 50px;
-  text-align: center;
-  -webkit-animation: bounceIn 1.5s both 2s;
+	
+	font-family : "GROBOLD";
+	display : inline-block;
+	line-height : 60px;
+	color: Brown;
+	font-weight: 500;
+	font-size: 45px;
+	text-align: center;
+	-webkit-animation: bounceIn 1.5s both 2s;
 
 }
 
+@font-face
+{
+	font-family : 'GROBOLD';
+	src: url('GROBOLD.ttf');
+}
 
 @keyframes bounceIn {
   from, 20%, 40%, 60%, 80%, to {
