@@ -1,9 +1,11 @@
 
-/* *
+ *
 {
 	border : 1px solid red;
 }
 */
+
+/* --------------------------------------- PARTIE GLOBALE DE LA PAGE --------------------------------------- */
 
 body
 {
@@ -51,6 +53,8 @@ footer
 	background-color : SaddleBrown;
 }
 
+/* --------------------------------------- PARTIE PROMOTIONS --------------------------------------- */
+
 .promos
 {
 	display : flex;
@@ -65,13 +69,27 @@ footer
 	border-radius : 10px;
 	
 }
-.defilpromo
+
+#defilpromo
 {
 	display : flex;
 	flex-direction : column-reverse;
 	justify-content : space-between;
-	align-items : center;
+	align-items: center;
+	height : 597px;
+}	
+
+#defilpromo img 
+{
+	display : flex;
+	width: 50%;
 }
+
+
+
+
+/* -------------------------------------------- PARTIE IMAGE ------------------------------------------------------ */ 
+
 
 .images
 {
@@ -88,14 +106,30 @@ footer
 	
 }
 
-.defilimage
+#defilimage
 {
 	display : flex;
 	flex-direction : column-reverse;
 	justify-content : space-between;
-	align-items : center;
+	align-items: center;
+	height : 597px;
 }
-	
+
+#defilimage img
+{
+	display : flex;
+	width: 50%;
+}
+
+/* --------------------------------------- PARTIE LOGO --------------------------------------- */
+
+.logo 
+{
+	height : 80%;
+}
+
+
+/* --------------------------------------- ANIMATION MESSAGE BIENVENUE --------------------------------------- */
 
 .acceuil1:hover,
 .acceuil1:focus 
@@ -161,23 +195,5 @@ header p
     transform: scale(1); 
     -webkit-transform: scale(1);
   }
-}
-
-
-.images img
-{
-	display : flex;
-	width: 300px;
-}
-
-.promos img 
-{
-	display : flex;
-	width: 300px;
-}
-
-.logo 
-{
-	height : 80%;
 }
 
