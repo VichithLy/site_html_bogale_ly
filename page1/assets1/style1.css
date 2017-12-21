@@ -67,8 +67,8 @@ footer
 	width : 24%;
 	text-align: center;
 	height : 560px;
-	border-left : 2px solid SandyBrown;
-	border-right: 2px solid SandyBrown;
+	border-left : 5px dotted SandyBrown;
+	border-right: 5px dotted SandyBrown;
 	margin-top : 20px;
 	
 	
@@ -106,8 +106,8 @@ footer
 	width : 24%;
 	text-align: center;
 	height : 560px;
-	border-left: 2px solid Lightblue;
-	border-right: 2px solid Lightblue;
+	border-left: 5px dotted Lightblue;
+	border-right: 5px dotted Lightblue;
 	margin-top : 20px;
 
 	
@@ -150,51 +150,47 @@ footer
 .bienvenue 
 {
   display : inline-block;
-  line-height : 120px;
+  line-height : 60px;
   color: maroon;
   font-family: lato;
   font-weight: 500;
   font-size: 50px;
   text-align: center;
-  -webkit-animation: bounceIn 1.5s both 1s;
+  -webkit-animation: bounceIn 1.5s both 2s;
 
 }
 
-@-webkit-keyframes bounceIn{
-  0% { 
-    transform: scale(0.1); 
-    -webkit-transform: scale(0.1);
-    opacity: 0;
-  } 
 
-  60% { 
-    transform: scale(1.2); 
-    -webkit-transform: scale(1.2);
-    opacity: 1;
-  } 
-
-  100% { 
-    transform: scale(1); 
-    -webkit-transform: scale(1);
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
-}
 
-@keyframes bounceIn{
-  0% { 
-    transform: scale(0.1); 
-    -webkit-transform: scale(0.1);
+  0% {
     opacity: 0;
-  } 
+    transform: scale3d(.3, .3, .3);
+  }
 
-  60% { 
-    transform: scale(1.2); 
-    -webkit-transform: scale(1.2);
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
     opacity: 1;
-  } 
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
 
-  100% { 
-    transform: scale(1); 
-    -webkit-transform: scale(1);
+  80% {
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
   }
 }
 
