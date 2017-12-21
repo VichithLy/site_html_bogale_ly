@@ -1,7 +1,7 @@
 body  {
 	background-image : url( ../fond.png);
 }
-
+/*------------------------------ partie menue (fond vert) ----------------------------------------------*/
 nav ul li  {
 	display: inline-block;
 	margin-left: 30px;
@@ -16,13 +16,12 @@ a:hover {
 }
 
 nav {
-	background-color: lightblue;
+	background-color: lightgreen;
 	height:35px;
+}
+/*------------------------------------------------------------------------------------------------------*/
 
-	
-	
-	}
-
+/*-----------------------------------barre de recherche image panier------------------------------------*/
 nav ul #search a {
 	border: 1px solid black;
 	background-color: lightblue;
@@ -35,17 +34,29 @@ nav ul #panier img {
 	margin-right: 10px;
 	margin-top:5px;
 }
- 
+/*-----------------------------------------------------------------------------------------------------*/
+ header
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 100%;
+	height : 150px;
+	border-radius : 10px;
+	background-color : lightblue;
+}
 
 section img {
 	width:200px;
 	height:200px;
 }
 footer {
+
 	display:block;
 	width:100%;
 	height:5%;
-	background-color: coral;
+	background-color: sandybrown;
 }
 div {
 	position: absolute;
@@ -74,10 +85,16 @@ section img {
 	height:200px;
 }
 footer {
-	display:block;
-	width:100%;
-	height:5%;
-	background-color: coral;
+	
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 100%;
+	height : 50px;
+	border-radius : 10px;
+	background-color : SandyBrown;
+	
 }
 
 
