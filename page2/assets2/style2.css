@@ -1,5 +1,5 @@
 body  {
-	background-image : url( ../.jpg);
+	background-image : url( ../fond.png);
 }
 
 nav ul li  {
@@ -36,7 +36,6 @@ nav ul #panier img {
 }
  
 
-
 section img {
 	width:200px;
 	height:200px;
@@ -54,19 +53,94 @@ div {
 	height:5%;
 	background-color: lightpink;
 }
- nav ul #search{
-	position : absolute;
-	top: 8px;
-	left : 854px;
-	background-color: 142b47;
-}
- nav ul #panier {
-	 position : absolute;
-	top: 8px;
-	left : 1100px;
 
- }
+
+
+ 
 	 
-	
+#panier, #search {
+		float:right;
+}
 
+
+div a {
+	color: green;
+}
+
+section img {
+	width:200px;
+	height:200px;
+}
+footer {
+	display:block;
+	width:100%;
+	height:5%;
+	background-color: coral;
+}
+
+
+footer img {
+	width:40px;
+	height:40px;
+	margin-right : 60px;
+}
+#loginform
+{
+ width:500px;
+ height:330px;
+ margin-top:100px;
+ background-color:#585858;
+ border-radius:3px;
+ box-shadow:0px 0px 10px 0px #424242;
+ padding:10px;
+ box-sizing:border-box;
+ font-family:helvetica;
+ visibility:hidden;
+ display:none;
+}
+#loginform #close_login
+{
+ position:absolute;
+ top:140px;
+ left:735px;
+ width:15px;
+ height:15px;
+}
+#loginform p
+{
+ margin-top:40px;
+ font-size:22px;
+ color:#E6E6E6;
+}
+#loginform #login
+{
+ width:250px;
+ height:40px;
+ border:2px solid silver;
+ border-radius:3px;
+ padding:5px;
+}
+#loginform #password
+{
+ margin-top:5px;
+ width:250px;
+ height:40px;
+ border:2px solid silver;
+ border-radius:3px;
+ padding:5px;
+}
+#loginform #dologin
+{
+ margin-left:-5px;
+ margin-top:10px;
+ width:250px;
+ height:40px;
+ border:none;
+ border-radius:3px;
+ color:#E6E6E6;
+ background-color:grey;
+ font-size:20px;
+}
+	
+	
 	
