@@ -1,7 +1,7 @@
 body  {
 	background-image : url( ../fond.png);
 }
-
+/*------------------------------ partie menue (fond vert) ----------------------------------------------*/
 nav ul li  {
 	display: inline-block;
 	margin-left: 30px;
@@ -16,12 +16,12 @@ a:hover {
 }
 
 nav {
-	background-color: lightblue;
+	background-color: lightgreen;
 	height:35px;
-	
-	
-	}
+}
+/*------------------------------------------------------------------------------------------------------*/
 
+/*-----------------------------------barre de recherche image panier------------------------------------*/
 nav ul #search a {
 	border: 1px solid black;
 	background-color: lightblue;
@@ -34,17 +34,25 @@ nav ul #panier img {
 	margin-right: 10px;
 	margin-top:5px;
 }
- 
+
+/*-----------------------------------------------------------------------------------------------------*/
+ header
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 100%;
+	height : 150px;
+	border-radius : 10px;
+	background-color : lightblue;
+}
 
 section img {
 	width:200px;
 	height:200px;
 }
-footer {
-	display:block;
-	width:100%;
-	height:5%;
-	background-color: coral;
+
 }
 div {
 	position: absolute;
@@ -62,7 +70,6 @@ div {
 		float:right;
 }
 
-
 div a {
 	color: green;
 }
@@ -72,10 +79,17 @@ section img {
 	height:200px;
 }
 footer {
-	display:block;
-	width:100%;
-	height:5%;
-	background-color: coral;
+
+	
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 100%;
+	height : 50px;
+	border-radius : 10px;
+	background-color : SandyBrown;
+	
 }
 
 
@@ -84,63 +98,7 @@ footer img {
 	height:40px;
 	margin-right : 60px;
 }
-#loginform
-{
- width:500px;
- height:330px;
- margin-top:100px;
- background-color:#585858;
- border-radius:3px;
- box-shadow:0px 0px 10px 0px #424242;
- padding:10px;
- box-sizing:border-box;
- font-family:helvetica;
- visibility:hidden;
- display:none;
-}
-#loginform #close_login
-{
- position:absolute;
- top:140px;
- left:735px;
- width:15px;
- height:15px;
-}
-#loginform p
-{
- margin-top:40px;
- font-size:22px;
- color:#E6E6E6;
-}
-#loginform #login
-{
- width:250px;
- height:40px;
- border:2px solid silver;
- border-radius:3px;
- padding:5px;
-}
-#loginform #password
-{
- margin-top:5px;
- width:250px;
- height:40px;
- border:2px solid silver;
- border-radius:3px;
- padding:5px;
-}
-#loginform #dologin
-{
- margin-left:-5px;
- margin-top:10px;
- width:250px;
- height:40px;
- border:none;
- border-radius:3px;
- color:#E6E6E6;
- background-color:grey;
- font-size:20px;
-}
-	
-	
-	
+
+
+
+

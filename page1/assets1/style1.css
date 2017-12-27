@@ -1,24 +1,32 @@
-
-/*
+ /**
 {
 	border : 1px solid red;
 }
 */
 
+/* --------------------------------------- PARTIE GLOBALE DE LA PAGE --------------------------------------- */
+
 body
 {
+
+
 	background-image : url(background1.png);
+	
+	/* background-size: cover;
+	background-attachment: fixed;
+	*/
 }
 
 header
 {
-	display : inline-block;
+	display : flex;
+	justify-content : center;
 	text-align: center;
+	align-items : center;
 	width : 100%;
 	height : 150px;
-	border : 2px solid BurlyWood;
 	border-radius : 10px;
-	
+	background-color : Lightblue;
 }
 
 main
@@ -27,62 +35,203 @@ main
 	width : 49%;
 	line-height : 600px;
 	text-align: center;
-	
-	text-align: center;
+	vertical-align: center;
 	margin-left : 1.2%;
 	height : 600px;
 	
 }
-	
 
 footer
 {
-	display : block;
-	width: : 100%;
+	display : flex;
+	justify-content : center;
 	text-align: center;
+	align-items : center;
+	width : 100%;
+	height : 100px;
+	border-radius : 10px;
+	background-color : SandyBrown;
 }
+
+
+/* --------------------------------------- PARTIE PROMOTIONS --------------------------------------- */
 
 .promos
 {
-	display : inline-block;
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-between;
+	align-items : center;
 	float: right;
 	width : 24%;
 	text-align: center;
-	height : 600px;
-	border : 2px solid Maroon;
-	border-radius : 10px;
+	
+	
+	height : 560px;
+	border-left : 5px dotted SandyBrown;
+	border-right: 5px dotted SandyBrown;
+	margin-top : 20px;
+	
 	
 }
+
+.defilpromo
+{
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-between;
+	align-items: center;
+	height : 460px;
+	width : 100%;
+	overflow:auto;
+	
+	
+}	
+
+.defilpromo img 
+{
+	display : flex;
+	height : 450px;
+	width: auto;
+	margin-top : 25px;
+	border: 1px solid SandyBrown;
+	
+}
+
+.titrepromo
+{
+	display : inline-block;
+	width : 100%;
+	height : 100px;
+	
+	font-size : xx-large;
+	font-family : "GROBOLD";
+	
+	color : Brown;
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 100%;
+	height : 100px;
+	
+	
+}
+
+
+
+/* -------------------------------------------- PARTIE IMAGE ------------------------------------------------------ */ 
+
 
 .images
 {
-	display : inline-block;
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-between;
+	align-items : center;
 	float : left;
 	width : 24%;
 	text-align: center;
-	height : 600px;
-	border : 2px solid Maroon;
-	border-radius : 10px;
+	height : 560px;
+	border-left: 5px dotted Lightblue;
+	border-right: 5px dotted Lightblue;
+	margin-top : 20px;
+
 	
 }
 
-.acceuil1
+#defilimage
 {
-	max-width: 10%;
-	height: auto;
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-between;
+	align-items: center;
+	height : 590px;
 
 }
 
-.logo
+#defilimage img
 {
-	display: inline;
-	max-width: 100px;
-	height: auto;
-	margin-top : 10px;
+	display : flex;
+	width: 50%;
 
 }
 
-header p
+/* --------------------------------------- PARTIE LOGO --------------------------------------- */
+
+.logo 
 {
-	text-align : center;
+	height : 80%;
 }
+
+
+/* --------------------------------------- ANIMATION MESSAGE BIENVENUE --------------------------------------- */
+
+.acceuil1:hover,
+.acceuil1:focus 
+{
+	transform: scale(1.2);
+	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+}
+
+@font-face {
+	font-family: 'Conv_GROBOLD';
+	src: url('fonts/GROBOLD.eot');
+	src: local('☺'), url('fonts/GROBOLD.woff') format('woff'), url('fonts/GROBOLD.ttf') format('truetype'), url('fonts/GROBOLD.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.bienvenue
+{
+	
+	font-family : "GROBOLD";
+	display : inline-block;
+	line-height : 60px;
+	color: Brown;
+	font-weight: 500;
+	font-size: 45px;
+	text-align: center;
+	-webkit-animation: bounceIn 1.5s both 2s;
+
+}
+
+@font-face
+{
+	font-family : 'GROBOLD';
+	src: url('GROBOLD.ttf');
+}
+
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
