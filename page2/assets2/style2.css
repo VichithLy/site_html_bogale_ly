@@ -106,14 +106,14 @@ header input
 	width: auto;
 }
 
-#search 
+form
 {
 	display : flex;
 	justify-content : center;
 	text-align: center;
 	align-items : center;
+	height: 100%;
 }
-
 
 
 header ul
