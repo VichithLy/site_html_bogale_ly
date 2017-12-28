@@ -1,4 +1,4 @@
- /**
+/* *
 {
 	border : 1px solid red;
 }
@@ -34,7 +34,7 @@ main
 	line-height : 600px;
 	text-align: center;
 	vertical-align: center;
-	margin-left : 1.2%;
+	margin-left : 1%;
 	height : 100%;
 	
 }
@@ -147,14 +147,42 @@ footer
 	flex-direction : column-reverse;
 	justify-content : space-between;
 	align-items: center;
-	height : 590px;
-
+	height : 460px;
+	width: 100%;
+	overflow: auto;
 }
+
+
+.titreavis
+{
+	display : inline-block;
+	width : 100%;
+	height : 100px;
+	
+	font-size : xx-large;
+	font-family : "GROBOLD";
+	
+	color : Brown;
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 100%;
+	height : 100px;
+	
+	
+}
+
 
 #defilimage img
 {
+
+
 	display : flex;
-	width: 50%;
+	height : auto;
+	width: 90%;
+	margin-top : 25px;
+	border: 1px solid SandyBrown;
 
 }
 
@@ -162,26 +190,11 @@ footer
 
 .logo 
 {
-	height : 80%;
+	height : 90%;
 }
 
 
 /* --------------------------------------- ANIMATION MESSAGE BIENVENUE --------------------------------------- */
-
-.acceuil1:hover,
-.acceuil1:focus 
-{
-	transform: scale(1.2);
-	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
-}
-
-@font-face {
-	font-family: 'Conv_GROBOLD';
-	src: url('fonts/GROBOLD.eot');
-	src: local('☺'), url('fonts/GROBOLD.woff') format('woff'), url('fonts/GROBOLD.ttf') format('truetype'), url('fonts/GROBOLD.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 
 .bienvenue
 {
@@ -193,7 +206,7 @@ footer
 	font-weight: 500;
 	font-size: 45px;
 	text-align: center;
-	-webkit-animation: bounceIn 1.5s both 2s;
+	animation: bounceIn 1.5s both 2s;
 
 }
 
@@ -202,6 +215,8 @@ footer
 	font-family : 'GROBOLD';
 	src: url('GROBOLD.ttf');
 }
+
+/* animation tirée du site https://daneden.github.io/animate.css/ */ 
 
 @keyframes bounceIn {
   from, 20%, 40%, 60%, 80%, to {
@@ -236,3 +251,37 @@ footer
   }
 }
 
+/* --------------------------------------- PARTIE ACCEDER AU SITE --------------------------------------- */
+
+
+footer a
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	background-color: Bisque;
+	border-radius: 30px;
+	height : 70px;
+	width : 300px;
+}
+
+#site
+{
+	color : maroon;
+}
+
+footer p
+{
+	font-size: xx-large;
+	font-family: "GROBOLD";
+}
+
+/* animation tirée du site https://www.creativejuiz.fr/blog/tutoriels/quelques-idees-danimations-simples-en-css3 */
+
+footer a:hover,
+footer a:focus 
+{
+	transform: scale(1.2);
+	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+}
