@@ -8,8 +8,6 @@
 
 body
 {
-
-
 	background-image : url(background1.png);
 	
 	/* background-size: cover;
@@ -37,7 +35,7 @@ main
 	text-align: center;
 	vertical-align: center;
 	margin-left : 1.2%;
-	height : 600px;
+	height : 100%;
 	
 }
 
@@ -83,7 +81,7 @@ footer
 	align-items: center;
 	height : 460px;
 	width : 100%;
-	overflow:auto;
+	overflow: auto;
 	
 	
 }	
@@ -91,8 +89,8 @@ footer
 .defilpromo img 
 {
 	display : flex;
-	height : 450px;
-	width: auto;
+	height : auto;
+	width: 70%;
 	margin-top : 25px;
 	border: 1px solid SandyBrown;
 	
@@ -120,7 +118,10 @@ footer
 
 
 
-/* -------------------------------------------- PARTIE IMAGE ------------------------------------------------------ */ 
+/* -------------------------------------------- PARTIE AVIS ------------------------------------------------------ */ 
+
+/*ALLEZ VOIR http://www.calindoudou.fr/recherche?controller=search&orderby=position&orderway=desc&search_query=&submit_search= */ 
+
 
 
 .images
