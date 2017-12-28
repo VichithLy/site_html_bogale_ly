@@ -1,50 +1,157 @@
-body  {
+/*
+{
+	border : 0.5px solid black;
+}
+
+*/
+
+body  
+{
+	margin : 0px;
 	background-image : url( ../fond.png);
 }
+/*------------------------------ PARTIE MENU  ----------------------------------------------*/
 
-nav ul li  {
-	display: inline-block;
-	margin-left: 30px;
-	line-height:35px;
 
-	
+nav ul li:hover
+{
 
-}
-a:hover {
-	background-color: coral;
-
+	background-color: Bisque;
 }
 
-
-nav {
-	background-color: lightgreen;
-	height:35px;
-}	
-	
-	}
-
-nav ul #search a {
-	border: 1px solid black;
-	background-color: lightblue;
-	border-radius: 5px;
-}	
-nav ul #panier img {
-	
-	width: 20px;
-	height:20px;
-	margin-right: 10px;
-	margin-top:5px;
+nav ul li
+{
+	font-family: "simplicity";
+	font-size: x-large;
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	height: 50px;
+	padding-left : 25px;
+	padding-right: 25px;
 }
- 
-  header
+
+#first
+{
+	color: black;
+}
+
+#second
+{
+	color: black;
+}
+
+#third
+{
+	color: black;
+}
+
+#last
+{
+	color: black;
+}
+
+
+{
+	text-decoration-color:  :black;
+}
+
+nav ul 
+{
+	display : flex;
+	justify-content : center;
+	background-color: SandyBrown;
+	height : 50px;
+	margin-right : 340px;
+	margin-left : 340px;
+	margin-top: 25px;
+	list-style:none;
+
+}
+
+@font-face
+{
+	font-family : "simplicity";
+	src: url('../simplicity.ttf');
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------- BANDEAU ENTREPRISE RECHERCHE PANIER ---------------------------------*/
+
+
+header input 
+{
+	height:40px;
+	width: 250px;
+	padding-left: 20px;
+}
+
+.loupe 
+{
+	float : left;
+	height: 40px;
+	width : auto;
+	padding-right: 5px;
+}
+
+.logo 
+{
+	height : 100px;
+	width: auto;
+}
+
+#search 
 {
 	display : flex;
 	justify-content : center;
 	text-align: center;
 	align-items : center;
+}
+
+
+
+header ul
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+}
+
+
+header ul p
+{
+	font-family: "simplicity";
+	font-size: x-large;
+}
+
+
+
+header ul img 
+{
+	
+	width: 60px;
+
+	height: auto;
+	margin : 20px;
+	padding-right: 20px;
+	border-right : 3px solid black;
+}
+
+
+header
+{
+	display : flex;
+	justify-content : space-around;
 	width : 100%;
-	height : 150px;
-	border-radius : 10px;
+	height : 100px;
+	
 	background-color : lightblue;
 }
 
@@ -52,11 +159,7 @@ section img {
 	width:200px;
 	height:200px;
 }
-footer {
-	display:block;
-	width:100%;
-	height:5%;
-	background-color: coral;
+
 }
 div {
 	position: absolute;
@@ -66,26 +169,13 @@ div {
 	background-color: lightpink;
 }
 
-
-
  
-	 
-#panier, #search {
-		float:right;
-}
 
 
-div a {
-	color: green;
-}
+/* --------------------------------- BANDEAU CONTACT ----------------------------------- */
 
-section img {
-	width:200px;
-	height:200px;
-}
-
-footer {
-
+footer 
+{
 	
 	display : flex;
 	justify-content : center;
@@ -93,14 +183,73 @@ footer {
 	align-items : center;
 	width : 100%;
 	height : 50px;
-	border-radius : 10px;
 	background-color : SandyBrown;
-	
 }
 
 
-footer img {
+.avis
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+}
+
+.avis img
+{
+	height: 40px;
+	width : auto;
+	margin-right: 30px;
+}
+
+.contact
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	text-decoration : none;
+}
+
+.contact img 
+{
+	height: 40px;
+	width : auto;
+	margin-right: 30px;
+}
+
+.social
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+}
+
+.social img 
+{
 	width:40px;
 	height:40px;
 	margin-right : 60px;
 }
+
+.social img:hover,
+.social img:focus 
+{
+	transform: scale(1.2);
+	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+}
+
+footer div p 
+{
+	font-family: "simplicity";
+	font-size: large;
+	margin-left : 10px;
+	margin-right: 10px;
+}
+
+
+	
+
+
+

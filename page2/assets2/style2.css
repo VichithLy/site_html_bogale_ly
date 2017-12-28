@@ -1,40 +1,83 @@
-*
+/*
 {
 	border : 0.5px solid black;
 }
 
+*/
 
 body  
 {
 	margin : 0px;
 	background-image : url( ../fond.png);
 }
-/*------------------------------ partie menu  ----------------------------------------------*/
+/*------------------------------ PARTIE MENU  ----------------------------------------------*/
+
+
+nav ul li:hover
+{
+
+	background-color: Bisque;
+}
 
 nav ul li
 {
+	font-family: "simplicity";
+	font-size: x-large;
 	display : flex;
 	justify-content : center;
 	text-align: center;
 	align-items : center;
-	margin : 1px ;
 	height: 50px;
-	font-size: large;
+	padding-left : 25px;
+	padding-right: 25px;
+}
+
+#first
+{
+	color: black;
+}
+
+#second
+{
+	color: black;
+}
+
+#third
+{
+	color: black;
+}
+
+#last
+{
+	color: black;
+}
+
+
+{
+	text-decoration-color:  :black;
 }
 
 nav ul 
 {
 	display : flex;
-	justify-content : flex-start;
-	text-align: center;
-	align-items : center;
+	justify-content : center;
 	background-color: SandyBrown;
 	height : 50px;
-	margin-right : 150px;
-	margin-left : 150px;
+	margin-right : 340px;
+	margin-left : 340px;
 	margin-top: 25px;
 	list-style:none;
+
 }
+
+@font-face
+{
+	font-family : "simplicity";
+	src: url('../simplicity.ttf');
+}
+
+
+
 /*------------------------------------------------------------------------------------------------------*/
 
 
@@ -72,7 +115,6 @@ header input
 }
 
 
-	
 
 header ul
 {
@@ -81,6 +123,14 @@ header ul
 	text-align: center;
 	align-items : center;
 }
+
+
+header ul p
+{
+	font-family: "simplicity";
+	font-size: x-large;
+}
+
 
 
 header ul img 
@@ -99,13 +149,6 @@ header
 {
 	display : flex;
 	justify-content : space-around;
-	/* 
-	
-	text-align: center;
-	align-items : center;
-
-	*/
-
 	width : 100%;
 	height : 100px;
 	
@@ -126,15 +169,13 @@ div {
 	background-color: lightpink;
 }
 
-
-
  
-	 
 
 
 /* --------------------------------- BANDEAU CONTACT ----------------------------------- */
 
-footer {
+footer 
+{
 	
 	display : flex;
 	justify-content : center;
@@ -143,16 +184,39 @@ footer {
 	width : 100%;
 	height : 50px;
 	background-color : SandyBrown;
-	
 }
 
 
-footer img {
-	width:40px;
-	height:40px;
-	margin-right : 60px;
+.avis
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
 }
 
+.avis img
+{
+	height: 40px;
+	width : auto;
+	margin-right: 30px;
+}
+
+.contact
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	text-decoration : none;
+}
+
+.contact img 
+{
+	height: 40px;
+	width : auto;
+	margin-right: 30px;
+}
 
 .social
 {
@@ -162,22 +226,30 @@ footer img {
 	align-items : center;
 }
 
-footer div p 
+.social img 
 {
-	padding-right: 20px;
-	margin-left: 30px;
+	width:40px;
+	height:40px;
+	margin-right : 60px;
 }
 
-footer p 
-{
-	margin-left : 30px ;
-}
-
-footer div img:hover,
-footer div img:focus 
+.social img:hover,
+.social img:focus 
 {
 	transform: scale(1.2);
 	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
 }
+
+footer div p 
+{
+	font-family: "simplicity";
+	font-size: large;
+	margin-left : 10px;
+	margin-right: 10px;
+}
+
+
+	
+
 
 
