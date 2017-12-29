@@ -324,6 +324,12 @@ footer div p
 	margin:10px;
 }
 
+#carte .dispo
+{
+	border: 2px solid SandyBrown;
+	padding: 5px;
+}
+
 #qt
 {
 	display: flex;
