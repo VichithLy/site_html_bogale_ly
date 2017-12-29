@@ -1,9 +1,9 @@
-/*
+*
 {
 	border : 0.5px solid black;
 }
 
-*/
+
 
 body  
 {
@@ -163,22 +163,12 @@ header
 	background-color : lightblue;
 }
 
-section img {
+section img 
+{
 	width:200px;
 	height:200px;
 }
-
-}
-div {
-	position: absolute;
-	top:1000px;	
-	width:100%;
-	height:5%;
-	background-color: lightpink;
-}
-
  
-
 
 /* --------------------------------- BANDEAU CONTACT ----------------------------------- */
 
@@ -262,7 +252,8 @@ footer div p
 
 /* Slideshow tirée du site https://www.alsacreations.com/tuto/lire/1059-ID-slideshow-css3-animation-keyframes-automatique.html */
 
-#slideshow {
+#slideshow 
+{
 	border : 5px dotted SandyBrown;
 	position: relative;
 	width: 1100px;
@@ -270,11 +261,14 @@ footer div p
 	margin: 20px auto;
 	overflow: hidden;
 }
-#sContent li {
+
+#sContent li 
+{
 	display: inline;
 }
 
-#sContent {
+#sContent 
+{
 	display : flex;
 	justify-content : center;
 	text-align: center;
@@ -303,7 +297,8 @@ footer div p
 }
 
 
-@keyframes AutoSlide {
+@keyframes AutoSlide
+{
 	0% {
 		left: 1100px; /*1ère image*/
 	}
@@ -317,7 +312,7 @@ footer div p
 		left: 0px; /*idem pour attente*/
 	}
 	70% {
-		left: -1100 px; /*3ème image*/
+		left: -1100px; /*3ème image*/
 	}
 	85% {
 		left: -1100px; /*idem pour attente*/
@@ -325,4 +320,188 @@ footer div p
 	100% {
 		left: 1100px; /*1ère image*/
 	}
+}
+
+
+/*-------------------- PARTIE TOP MEILLEURE VENTE ET AVIS ------------------------ */
+
+.topvente
+{
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-around;
+	align-items : center;
+	float : left;
+	width : 100%;
+	text-align: center;
+	height : 560px;
+	margin-top : 20px;
+
+	
+}
+
+#listetop
+{
+	border : 3px solid red;
+	display : flex;
+
+	justify-content : space-between;
+	align-items: center;
+	height : 460px;
+	width: 75%;
+
+
+
+}
+
+
+.titretop
+{
+	border : 3px solid blue;
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 75%;
+	height : 100px;
+	font-size : 60px;
+	font-family : "simplicity";
+	color : Brown;	
+}
+
+.titretop p
+{
+	border-bottom : 2px solid SandyBrown;
+}
+
+
+#listetop img
+{
+	display : flex;
+	height : auto;
+	width: 200px;
+
+	border: 1px solid SandyBrown;
+
+}
+
+
+
+/* ---------------------------------- PARTIE MEILLEURE VENTE ------------------------------ */ 
+
+.meilleurevente
+{
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-around;
+	align-items : center;
+	float : left;
+	width : 100%;
+	text-align: center;
+	height : 560px;
+	margin-top : 20px;
+
+	
+}
+
+#listemeilleure
+{
+	border : 3px solid red;
+	display : flex;
+
+	justify-content : space-between;
+	align-items: center;
+	height : 460px;
+	width: 75%;
+
+}
+
+
+.titremeilleure
+{
+	border : 3px solid blue;
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 75%;
+	height : 100px;
+	font-size : 60px;
+	font-family : "simplicity";
+	color : Brown;	
+}
+
+.titremeilleure p
+{
+	border-bottom : 2px solid SandyBrown;
+}
+
+
+#listemeilleure img
+{
+	display : flex;
+	height : auto;
+	width: 200px;
+	border: 1px solid SandyBrown;
+
+}
+
+
+/* ---------------------------------- PARTIE AVIS VENTE ------------------------------ */ 
+
+.avisvente
+{
+	display : flex;
+	flex-direction : column-reverse;
+	justify-content : space-around;
+	align-items : center;
+	float : left;
+	width : 100%;
+	text-align: center;
+	height : 560px;
+	margin-top : 20px;
+
+	
+}
+
+#listevente
+{
+	border : 3px solid red;
+	display : flex;
+
+	justify-content : space-between;
+	align-items: center;
+	height : 460px;
+	width: 75%;
+
+}
+
+
+.titrevente
+{
+	border : 3px solid blue;
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 75%;
+	height : 100px;
+	font-size : 60px;
+	font-family : "simplicity";
+	color : Brown;	
+}
+
+.titrevente p
+{
+	border-bottom : 2px solid SandyBrown;
+}
+
+
+#listevente img
+{
+	display : flex;
+	height : auto;
+	width: 200px;
+	border: 1px solid SandyBrown;
+
 }
