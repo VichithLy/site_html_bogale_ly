@@ -10,16 +10,31 @@ body
 	margin : 0px;
 	background-image : url( ../fond.png);
 }
+
+
+
 /*------------------------------ PARTIE MENU  ----------------------------------------------*/
 
+#menu2
+{
 
-nav ul li:hover
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	height : 55px;
+	margin-top: 25px;
+
+
+}
+
+#menu2 ul li:hover
 {
 
 	background-color: Bisque;
 }
 
-nav ul li
+#menu2 ul li
 {
 	font-family: "simplicity";
 	font-size: x-large;
@@ -27,14 +42,26 @@ nav ul li
 	justify-content : center;
 	text-align: center;
 	align-items : center;
-	height: 50px;
+	height: 100%;
 	padding-left : 25px;
 	padding-right: 25px;
+	
+	
+}
+
+#menu2 ul 
+{
+	display : flex;
+	justify-content : center;
+	background-color: SandyBrown;
+	list-style:none;
+	width: 70%;
 }
 
 #first
 {
 	color: black;
+
 }
 
 #second
@@ -53,23 +80,6 @@ nav ul li
 }
 
 
-{
-	text-decoration-color:  :black;
-}
-
-nav ul 
-{
-	display : flex;
-	justify-content : center;
-	background-color: SandyBrown;
-	height : 50px;
-	margin-right : 340px;
-	margin-left : 340px;
-	margin-top: 25px;
-	list-style:none;
-
-}
-
 @font-face
 {
 	font-family : "simplicity";
@@ -77,8 +87,6 @@ nav ul
 }
 
 
-
-/*------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -249,7 +257,72 @@ footer div p
 }
 
 
+/*---------------------------------------- SLIDESHOW ---------------------------------------- */
 	
 
+/* Slideshow tirée du site https://www.alsacreations.com/tuto/lire/1059-ID-slideshow-css3-animation-keyframes-automatique.html */
+
+#slideshow {
+	border : 5px dotted SandyBrown;
+	position: relative;
+	width: 1100px;
+	height: 600px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+#sContent li {
+	display: inline;
+}
+
+#sContent {
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;            
+	padding: 0;
+	width: 1100px;
+	height: 600px;
+	
+	
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+#sContent img
+{
+	width : 1100px;
+	height : 600px;
+
+}
 
 
+@keyframes AutoSlide {
+	0% {
+		left: 1100px; /*1ère image*/
+	}
+	15% {
+		left: 1100px; /*idem pour attente*/
+	}
+	35% {
+		left: 0px; /*2ème image*/
+	}
+	50% {
+		left: 0px; /*idem pour attente*/
+	}
+	70% {
+		left: -1100 px; /*3ème image*/
+	}
+	85% {
+		left: -1100px; /*idem pour attente*/
+	}
+	100% {
+		left: 1100px; /*1ère image*/
+	}
+}
