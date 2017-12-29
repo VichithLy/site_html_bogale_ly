@@ -1,4 +1,4 @@
-/*
+*
 {
 	border : 0.5px solid black;
 }
@@ -248,3 +248,64 @@ footer div p
 }
 
 
+/* --------------------------------- LISTE ARTICLES ----------------------------------- */
+
+#articles
+{
+	display : flex;
+	flex-direction: column-reverse;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	border : 3px solid red;
+	
+}
+
+.listeart
+{
+	display : flex;
+	flex-wrap: wrap;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	border : 3px solid blue;
+	width : 75%;
+	padding-bottom: 50px;
+
+}
+
+.listeart img
+{
+	margin: 20px;
+	padding-bottom: 80px;
+	border : 3px solid SandyBrown;
+}
+
+.titreart
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	width : 75%;
+	height : 100px;
+	font-size : 60px;
+	font-family : "simplicity";
+	color : Brown;	
+}
+
+#ordre
+{
+	display: inline-block;
+	width: 75%;
+}
+
+.lister
+{
+	float:left;
+}
+
+.trier
+{
+	float:right;
+}
