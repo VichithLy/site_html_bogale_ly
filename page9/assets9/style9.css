@@ -5,21 +5,37 @@
 
 */
 
+
 body  
 {
 	margin : 0px;
 	background-image : url( ../fond.png);
 }
+
+
+
 /*------------------------------ PARTIE MENU  ----------------------------------------------*/
 
+#menu2
+{
 
-nav ul li:hover
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	height : 55px;
+	margin-top: 25px;
+
+
+}
+
+#menu2 ul li:hover
 {
 
 	background-color: Bisque;
 }
 
-nav ul li
+#menu2 ul li
 {
 	font-family: "simplicity";
 	font-size: x-large;
@@ -27,14 +43,26 @@ nav ul li
 	justify-content : center;
 	text-align: center;
 	align-items : center;
-	height: 50px;
+	height: 100%;
 	padding-left : 25px;
 	padding-right: 25px;
+	
+	
+}
+
+#menu2 ul 
+{
+	display : flex;
+	justify-content : center;
+	background-color: SandyBrown;
+	list-style:none;
+	width: 70%;
 }
 
 #first
 {
 	color: black;
+
 }
 
 #second
@@ -53,23 +81,6 @@ nav ul li
 }
 
 
-{
-	text-decoration-color:  :black;
-}
-
-nav ul 
-{
-	display : flex;
-	justify-content : center;
-	background-color: SandyBrown;
-	height : 50px;
-	margin-right : 340px;
-	margin-left : 340px;
-	margin-top: 25px;
-	list-style:none;
-
-}
-
 @font-face
 {
 	font-family : "simplicity";
@@ -77,8 +88,6 @@ nav ul
 }
 
 
-
-/*------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -102,18 +111,18 @@ header input
 
 .logo 
 {
-	height : 100px;
+	height : 95px;
 	width: auto;
 }
 
-#search 
+form
 {
 	display : flex;
 	justify-content : center;
 	text-align: center;
 	align-items : center;
+	height: 100%;
 }
-
 
 
 header ul
@@ -155,22 +164,12 @@ header
 	background-color : lightblue;
 }
 
-section img {
+section img 
+{
 	width:200px;
 	height:200px;
 }
-
-}
-div {
-	position: absolute;
-	top:1000px;	
-	width:100%;
-	height:5%;
-	background-color: lightpink;
-}
-
  
-
 
 /* --------------------------------- BANDEAU CONTACT ----------------------------------- */
 
@@ -247,9 +246,5 @@ footer div p
 	margin-left : 10px;
 	margin-right: 10px;
 }
-
-
-	
-
 
 
