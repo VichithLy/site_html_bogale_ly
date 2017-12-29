@@ -1,8 +1,9 @@
-*
+/*
 {
 	border : 0.5px solid black;
 }
 
+*/
 
 
 body  
@@ -342,9 +343,7 @@ footer div p
 
 #listetop
 {
-	border : 3px solid red;
 	display : flex;
-
 	justify-content : space-between;
 	align-items: center;
 	height : 460px;
@@ -357,7 +356,6 @@ footer div p
 
 .titretop
 {
-	border : 3px solid blue;
 	display : flex;
 	justify-content : center;
 	text-align: center;
@@ -382,6 +380,7 @@ footer div p
 	width: 200px;
 
 	border: 1px solid SandyBrown;
+	margin-bottom: 100px
 
 }
 
@@ -399,16 +398,13 @@ footer div p
 	width : 100%;
 	text-align: center;
 	height : 560px;
-	margin-top : 20px;
 
 	
 }
 
 #listemeilleure
 {
-	border : 3px solid red;
 	display : flex;
-
 	justify-content : space-between;
 	align-items: center;
 	height : 460px;
@@ -419,7 +415,6 @@ footer div p
 
 .titremeilleure
 {
-	border : 3px solid blue;
 	display : flex;
 	justify-content : center;
 	text-align: center;
@@ -434,6 +429,7 @@ footer div p
 .titremeilleure p
 {
 	border-bottom : 2px solid SandyBrown;
+	margin-top : 150px;
 }
 
 
@@ -466,9 +462,7 @@ footer div p
 
 #listevente
 {
-	border : 3px solid red;
 	display : flex;
-
 	justify-content : space-between;
 	align-items: center;
 	height : 460px;
@@ -479,7 +473,6 @@ footer div p
 
 .titrevente
 {
-	border : 3px solid blue;
 	display : flex;
 	justify-content : center;
 	text-align: center;
@@ -489,11 +482,13 @@ footer div p
 	font-size : 60px;
 	font-family : "simplicity";
 	color : Brown;	
+
 }
 
 .titrevente p
 {
 	border-bottom : 2px solid SandyBrown;
+	margin-top: 50px;
 }
 
 
@@ -501,7 +496,8 @@ footer div p
 {
 	display : flex;
 	height : auto;
-	width: 200px;
+	width: 270px;
 	border: 1px solid SandyBrown;
+	margin-bottom: 200px;
 
 }
