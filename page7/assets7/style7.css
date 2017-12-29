@@ -247,4 +247,21 @@ footer div p
 	margin-right: 10px;
 }
 
+main 
+{
+	font-family: "GROBOLD";
+	margin : 10px;
+}
+
+main img {
+	width:20px;
+	height:20px;
+}
+
+
+@font-face
+{
+	font-family : 'GROBOLD';
+	src: url('simplicity.ttf');
+}
 

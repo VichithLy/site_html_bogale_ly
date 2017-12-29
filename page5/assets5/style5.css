@@ -248,3 +248,26 @@ footer div p
 }
 
 
+main ul  li {
+	
+	margin : 10px;
+}
+ 
+main {
+	margin : 20px;
+	font-family: "simplicity";
+}
+
+.champ {
+	width: 300px;
+}
+
+ul {
+	list-style:none;
+}
+
+@font-face
+{
+	font-family : 'GROBOLD';
+	src: url('simplicity.ttf');
+}
