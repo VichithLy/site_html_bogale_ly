@@ -55,6 +55,7 @@ body
 	display : flex;
 	justify-content : center;
 	background-color: SandyBrown;
+	flex-wrap: wrap;
 	list-style:none;
 	width: 70%;
 }

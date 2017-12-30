@@ -55,6 +55,7 @@ body
 	display : flex;
 	justify-content : center;
 	background-color: SandyBrown;
+	flex-wrap: wrap;
 	list-style:none;
 	width: 70%;
 }
@@ -255,11 +256,32 @@ footer div p
 }
 
 main {
-	margin: 10px;
-	font-family : "simplicity"
+	
+	font-family : "simplicity";
+	display: flex;
+	width : 100%;
+	justify-content: center;
 }
 
-img  {
-	margin-right : 200px; 
+aside
+{
+	display : flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-	
+
+main div
+{
+
+	font-family: "simplicity";
+	display : flex;
+	flex-wrap: wrap;
+	font-weight: bolder;
+	font-size: large;
+	justify-content: flex-start;
+	margin-bottom: 50px;
+	color : maroon;
+	width : 50%;
+	margin-top: 50px;
+}
+
