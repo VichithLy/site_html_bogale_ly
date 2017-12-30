@@ -415,7 +415,6 @@ footer div p
 {
 	display : flex;
 	flex-direction: column;
-	justify-content : start;
 	text-align: center;
 	align-items : center;
 	width: 100%;
@@ -428,7 +427,6 @@ footer div p
 {
 	display : flex;
 	flex-direction: column;
-	justify-content : start;
 	width: 45%;
 
 }
@@ -436,12 +434,11 @@ footer div p
 #infocom2 div, #form0
 {
 	display : flex;
-	justify-content : start;
-
+	justify-content: flex-start;
 
 }
 
-#premier, #second,#troisieme
+#premier, #second2,#troisieme
 {
 	font-family: "simplicity";
 	color: maroon;
@@ -449,12 +446,20 @@ footer div p
 
 }
 
-#form1
+#form6 
 {
 	display : flex;
 	flex-direction: column;
 	justify-content : space-around;
 	height:80px;
+	margin:0px;
+}
+
+#form1
+{	display : flex;
+	flex-direction: column;
+	justify-content : space-around;
+	height:120px;
 	margin:0px;
 }
 
@@ -469,13 +474,13 @@ footer div p
 
 }
 
-#second + table, #troisieme + table
+#second2 + table, #troisieme + table
 {
 	border-collapse: collapse;
 	
 }
 
-#second + table td, #second + table th, #troisieme + table td, #troisieme + table th
+#second2 + table td, #second2 + table th, #troisieme + table td, #troisieme + table th
 {
 	border : 3px solid SandyBrown;
 }
