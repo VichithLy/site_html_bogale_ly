@@ -1,4 +1,4 @@
-*
+/*
 {
 	border : 0.5px solid black;
 }
@@ -54,6 +54,7 @@ body
 {
 	display : flex;
 	justify-content : center;
+	flex-wrap: wrap;
 	background-color: SandyBrown;
 	list-style:none;
 	width: 70%;
@@ -450,7 +451,6 @@ footer div p
 
 #form1
 {
-	border : 3px solid blue;
 	display : flex;
 	flex-direction: column;
 	justify-content : space-around;
@@ -466,6 +466,20 @@ footer div p
 	justify-content : space-between;
 	height: 200px;
 	margin:0px;
+
 }
+
+#second + table, #troisieme + table
+{
+	border-collapse: collapse;
+	
+}
+
+#second + table td, #second + table th, #troisieme + table td, #troisieme + table th
+{
+	border : 3px solid SandyBrown;
+}
+
+
 
 

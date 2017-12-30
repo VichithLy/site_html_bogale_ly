@@ -57,6 +57,7 @@ body
 	background-color: SandyBrown;
 	list-style:none;
 	width: 70%;
+	flex-wrap: wrap;
 }
 
 #first
