@@ -54,6 +54,7 @@ body
 {
 	display : flex;
 	justify-content : center;
+	flex-wrap: wrap;
 	background-color: SandyBrown;
 	list-style:none;
 	width: 70%;
@@ -78,6 +79,7 @@ body
 #last
 {
 	color: black;
+
 }
 
 
@@ -248,6 +250,7 @@ footer div p
 }
 
 
+
 /* --------------------------------- LISTE ARTICLES ----------------------------------- */
 
 #articles
@@ -269,119 +272,67 @@ footer div p
 	border-left: 5px dotted SandyBrown;
 	border-right: 5px dotted SandyBrown;
 	width : 75%;
-	margin-bottom: 50px;
-
+	margin-top: 50px;
 
 }
 
 .listeart img
 {
 	height: auto;
-	width: 250px;
-	margin: 50px 50px 0px 50px;
+	width: 320px;
+	margin: 50px;
 
-	border-top: 3px solid SandyBrown;
-	border-left: 3px solid SandyBrown;
-	border-right: 3px solid SandyBrown;
+	border: 1px solid SandyBrown;
 }
 
-.listeart p
-{
-	width: 250px;
-	margin: 0px 52px 0px 52px;
-	font-family: "simplicity";
-	font-size: large;
-	font-weight: bold; 
-	color: maroon;
-	border-left: 3px solid SandyBrown;
-	border-right: 3px solid SandyBrown;
 
-	
-}
-
-.listeart .prix
-{
-	width: 250px;
-	margin: 0px 52px 0px 52px;
-	font-size: xx-large;
-	border-bottom: 3px solid SandyBrown;
-	border-left: 3px solid SandyBrown;
-	border-right: 3px solid SandyBrown;
-	font-weight: bolder; 
-	padding-top: 10px;
-}
 
 .titreart
 {
 	display : flex;
-	justify-content : center;
-	text-align: center;
+	justify-content : space-between;
 	align-items : center;
 	width : 75%;
-	height : 100px;
+	height : 70px;
 	font-size : 60px;
 	font-family : "simplicity";
-	color : Brown;	
+	color : Brown;
+	margin-top: 40px;
+	padding-bottom: 30px;	
+	border-bottom: 2px solid SandyBrown;
 }
 
-.titreart p
+.titreart .recherche
 {
-	border-bottom: 3px solid SandyBrown;
-}
-
-
-#ordre
-{
-	display: inline-block;
-	width: 75%;
-}
-
-.lister
-{
-	float:left;
-}
-
-.trier
-{
-	float:right;
-}
-
-/* --------------------------- PARTIE RECAPITULATIF DE COMMANDE ------------------- */ 
-
-
-
-.titreart
-{
-	display : flex;
-	justify-content : center;
-	text-align: center;
-	align-items : center;
-	width : 100%;
-	height : 100px;
-	font-size : 30px;
-	font-family : "simplicity";
-	color : Brown;	
-
-}
-
-#tableau
-{
-	width: 100%;
-	display : flex;
-	flex-direction: column;
-	justify-content : center;
-	text-align: center;
-	align-items : center;
-}
-
-#tableau table,td,th
-{
-	border : 3px solid SandyBrown;
-	border-collapse: collapse;
-	font-family: "simplicity";
 	font-weight: bolder;
+}
+
+
+/* --------------------------------- DESCRIPTION ARTICLE ----------------------------------- */
+
+#carte
+{
+	flex-wrap: wrap;
+	font-family: "simplicity";
 	font-size: large;
-	color: maroon;
+	border-left: 2px solid SandyBrown;
+	width : 30%;
+	padding-left: 30px;
+
+
+}
+
+#carte p
+{
+	display: flex;
+	justify-content: flex-start;
+	margin:10px;
+}
+
+#carte .dispo
+{
+	border: 2px solid SandyBrown;
+	padding: 5px;
 }
 
 #qt
@@ -390,23 +341,148 @@ footer div p
 	text-align: center;
 	width : 50px;
 	height : 20px;
-	margin-left: 8px;
+	margin-left: 10px;
+
 }
 
-#boutachat:hover
+#prix p
 {
-	color: bisque;
+	width: 49%;
+	margin: 10px;
 }
 
-#boutachat
+#prix 
+{
+	display: flex;
+	justify-content: space-between;
+	align-items : center;
+}
+
+#prix p:first-child
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	font-size: xx-large;
+	font-weight:bolder;
+}
+
+#ajout
+{
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px;
+}
+
+#ajout img
+{
+	margin : 0px;
+	border : none;
+}
+
+#ajout img:hover,
+#ajout img:hover 
+{
+	transform: scale(1.2);
+	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+}
+
+
+/* ------------- TEXTE DESCRIPTION ----------------- */
+
+#descrart
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	
+	width : 75%;
+	margin-bottom: 50px;
+	border-left: 5px dotted SandyBrown;
+	border-right: 5px dotted SandyBrown;
+	padding-top: 50px;
+	margin-top: 5px;
+	
+	
+
+}
+
+.description
+{
+	display : flex;
+	justify-content : center;
+	text-align: justify;
+	align-items : center;
+	flex-direction: column;
+	width : 90%;
+	
+}
+
+#titredesc
 {
 	font-family: "simplicity";
-	font-weight: bold;
-	font-size: x-large;
-	color: maroon;
-	background-color: SandyBrown;
-	margin : 25px;
-	padding: 10px;
+	font-weight: bolder;
+	font-size: 40px;
+	color : Maroon;
+	border-bottom: 2px solid SandyBrown;
+	margin: 0px;
 }
 
+.description .texte
+{
+	display: inline-block;
 
+	font-family: "simplicity";
+	font-size: 20px;
+	font-weight: bolder;
+	color : maroon;
+	margin-bottom: 50px;
+}
+
+/* ---------------------------- PARTIE COMMENTAIRES ------------------ */
+
+.description .commentaire
+{
+	font-family: "simplicity";
+	font-weight: bolder;
+	font-size: 40px;
+	color : Maroon;
+	border-bottom: 2px solid SandyBrown;
+	margin: 0px;
+}
+
+.description .commentaire2
+{
+	font-family: "simplicity";
+	font-weight: bolder;
+	font-size: large;
+	color : Maroon;
+	width: 100%;
+	margin-top : 20px;
+	
+}
+
+.ecrire
+{
+	width: 100%;
+	background-color: none;
+}
+
+.ecrire p
+{
+	font-family: "simplicity";
+}
+.ecrire form
+{
+	display: flex;
+	justify-content: flex-end;
+	width: 305px;
+
+}
+
+.ecrire .envoie
+{
+	margin-right: 5px;
+}

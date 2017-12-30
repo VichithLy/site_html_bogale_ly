@@ -34,7 +34,7 @@
 			<a id = "first" style="text-decoration:none" href = "../page2/Acceuil.html" > <li> ACCUEIL </li> </a>
 			<a id = "second" style="text-decoration:none" href= "../page4/Promotions.html"> <li> PROMOTIONS </li> </a>
 			<a id = "third" style="text-decoration:none" href="../page3/Doudous.html" > <li> DOUDOUS </li> </a>
-			<a id = "last" style="text-decoration:none" href="../page6/Quisommes.html"> <li> QUI SOMMES-NOUS ? </li> 
+			<a id = "last" style="text-decoration:none" href="../page6/Quisommes.html"> <li> QUI SOMMES-NOUS ? </li> </a>
 			
 		</ul>
 
@@ -42,6 +42,31 @@
 
 	<main>
 
+		<div class="titreart"> 
+			<p> Récapitulatif de la commande </p>
+		</div>
+
+
+		<div id="tableau">
+
+		<table>
+
+  		<tr>
+   		<th>Produit</th> <th colspan=2> Description</th> <th>Disponibilité</th> <th>Prix unitaire</th> <th>Quantité</th> <td></td> <th>Total</th>
+  		</tr>
+
+  		<tr>
+    	<td> <a href="../page9/panier.html"> <img src = "doudous1/peluche12.jpg" alt = "peluche2"></td> <td colspan="2"> <a> <p>Doudou cochon sauvage</p> <p> Ref. DC3266</p> </td> <td>Disponible</td> <td>25€</td> <td> <p> Quantité : <input id="qt" type="number" value="1"> </p> </td> <td> <a href="../page9/panier.html"><img src = "poubelle.png" alt = "poubelle"> </a> </td> <td>25€</td>
+  		</tr>
+
+  		<tr>
+    	<th colspan="3" rowspan="3"> <p> BONS DE REDUCTION </p> <p> <input type="text" placeholder ="Votre code"> <button> ok </button> </p> </th> <td colspan="3"> Total produit</td> <td colspan="2">21€</td></tr> <td colspan="3"> Frais de port </td> <td colspan="2">4€</td> </tr> <td colspan="3"> TOTAL </td> <td colspan="2">25€</td> </tr>
+
+		</table>
+
+		<button id="boutachat"> Passer à l'achat </button>
+
+		</div>
 
 	</main>
 
