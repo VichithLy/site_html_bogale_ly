@@ -1,0 +1,188 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets11/style11.css">
+    <title>Panier</title>
+</head>
+
+<body>
+
+	<header>
+
+		<a href="../page2/Acceuil.html"> <img class="logo" src="logoent.png" alt="logoent"/> </a>
+ 
+
+		<form action="../page8/rechercher.html">
+
+			<p id="search"><label> <input type="search" placeholder ="Rechercher un produit..."> <a href="../page8/rechercher.html"> <img class="loupe" src="loupe.png" alt="rechercher"/> </a> </label> </p>
+
+		</form>
+
+		<ul>
+			<a href="../page9/panier.html"> <img src="panier.png" alt="imgpanier"/> </a>
+			<p id="panier"> <a style="text-decoration:none" href="../page9/panier.html"> PANIER </a> </li>
+		</ul>
+
+
+	</header> 
+
+	<nav id="menu2">
+
+		<ul> 
+			<a id = "first" style="text-decoration:none" href = "../page2/Acceuil.html" > <li> ACCUEIL </li> </a>
+			<a id = "second" style="text-decoration:none" href= "../page4/Promotions.html"> <li> PROMOTIONS </li> </a>
+			<a id = "third" style="text-decoration:none" href="../page3/Doudous.html" > <li> DOUDOUS </li> </a>
+			<a id = "last" style="text-decoration:none" href="../page6/Quisommes.html"> <li> QUI SOMMES-NOUS ? </li> </a>
+			
+		</ul>
+
+	</nav>
+
+	<main>
+
+		<div class="titreart"> 
+			<p> Validation de la commande </p>
+		</div>
+
+
+		<div id="tableau">
+
+		<table>
+
+  		<tr>
+   		<th>Produit</th> <th colspan=2> Description</th> <th>Disponibilité</th> <th>Prix unitaire</th> <th>Quantité</th> <th>Total</th>
+  		</tr>
+
+  		<tr>
+    	<td> <a href="../page9/panier.html"> <img src = "doudous1/peluche12.jpg" alt = "peluche2"></td> <td colspan="2"> <a> <p>Doudou cochon sauvage</p> <p> Ref. DC3266</p> </td> <td>Disponible</td> <td>25€</td> <td>1</td> <td>25€</td>
+  		</tr>
+
+  		<tr>
+    	<th colspan="3" rowspan="3"> </th> <td colspan="3"> Total produit</td> <td colspan="1">21€</td></tr> <td colspan="3"> Frais de port </td> <td colspan="1">4€</td> </tr> <td colspan="3"> TOTAL </td> <td colspan="1">25€</td> </tr>
+
+		</table>
+
+		</div> 	
+
+		<section id="infocom1">
+
+		<article id="infocom2">
+
+		<p id="premier"> <strong> 1. Informations sur la commande </strong> </p>
+
+		
+		<form id="form0" style="width: 100%; height: 20px">
+		<input type= "radio" name="sexe" value="homme"> Monsieur
+		<input type= "radio" name="sexe" value="femme"> Madame
+		</form>
+		<div><label>Prénom :* &nbsp;<input></label></div>
+		<div><label>Nom :* &nbsp;<input></label></div>
+		<div><label>Adresse :* &nbsp;<input></label></div>
+		<div><label>Code postal :* &nbsp;<input></label></div>
+		<div><label>Ville :* &nbsp;<input></label></div>
+		<div> Pays :* &nbsp;<select value="France"> <option>France</option> <option>Frence</option> <option>frensse</option> </select></div>
+		<div>Etat : &nbsp;<select value="France"> <option>Solide</option> <option>Liquide</option> <option>Gazeux</option> </select> </div>
+		<div><label>E-mail :*&nbsp; <input></label></div>
+		<div><label>Téléphone :* &nbsp;<input></label></div>
+		<div><label><input type=checkbox> Je souhaite recevoir des nouvelles et des coupons de réduction.</label></div>
+
+		
+		<p id="second"> <strong> 2. Livraison </strong> </p>
+
+		<table>
+
+  		<tr>
+   		<td></td> <th>Transporteur</th> <th>Information</th> <th>Prix</th>
+  		</tr>
+
+  		<tr>
+    	<td rowspan="2"> 
+    	<form id="form1">
+		<input type= "radio" name="transpo" value="lettre"> 
+		<input type= "radio" name="transpo" value="colis"> 
+		</form> 
+		</td> 
+
+		<td>Lettre suivie</td> <td>Lettre suivie : doudou en Lettre suivie "sans boite, sans support"</td> <td>4,00 €</td> 
+  		</tr>
+
+  		<tr>
+    	<td> Collisimo</td>  <td>Colissimo : Votre doudou avec son support en 48H </td> <td>6,50 €</td>
+    	</tr>
+
+		</table>
+
+		<p id="troisieme"> <strong> 3. Paiement </strong> </p>
+
+		<table>
+
+  		<tr>
+   		<td></td> <th>Transporteur</th>
+
+  		<tr>
+    	<td rowspan="4"> 
+    	<form id="form1">
+		<input type= "radio" name="paiement" value="1"> 
+		<input type= "radio" name="paiement" value="2"> 
+		<input type= "radio" name="paiement" value="3"> 
+		<input type= "radio" name="paiement" value="4"> 
+		</form> 
+		</td> 
+
+
+    	<td> PayPlug – Paiement en ligne simple et sécurisé</td>  
+    	<tr>
+
+    	<td> PayPal - Pay with your PayPal account or with your credit card</td>  
+    	</tr>
+
+    	<tr>
+    	<td> Chèque</td>  
+    	</tr>
+
+    	<tr>
+    	<td> Virement bancairee</td>  
+    	</tr>
+
+		</table>
+			
+		</article>
+
+		</section>
+
+		<button id="boutachat"> Confirmer l'achat </button>
+
+		
+
+	</main>
+
+
+
+
+	<footer>
+
+		<div class="avis">
+			<p><a style="text-decoration:none" href="../page5/commentaire.html"> Votre avis </a> </p>
+			<img src = "pouce.png" alt = "avisclient"></a>
+
+		</div>
+
+		<div class="contact">
+			<p><a style="text-decoration:none" href="../page7/contacter.html"> Nous contacter </a> </p>
+			<img src = "telephone.png" alt = "contactent"></a>
+		</div>
+
+		<div class="social">
+			<p> Nous suivre </p>
+			<a href="https://fr-fr.facebook.com/Disney/"><img src = "facebook.jpg" alt = "lienfacebook"></a>
+			<a href="https://www.instagram.com/disney/"><img src = "insta.png" alt = "lieninsta"></a>
+			<a href="https://twitter.com/disney"><img src = "Twitter.png" alt = "lientwitter"></a>
+			</div>
+
+	</footer>
+
+</body>
+
+</html>
