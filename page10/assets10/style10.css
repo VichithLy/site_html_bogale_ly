@@ -1,4 +1,4 @@
-/*
+*
 {
 	border : 0.5px solid black;
 }
@@ -54,6 +54,7 @@ body
 {
 	display : flex;
 	justify-content : center;
+	flex-wrap: wrap;
 	background-color: SandyBrown;
 	list-style:none;
 	width: 70%;
@@ -78,6 +79,7 @@ body
 #last
 {
 	color: black;
+
 }
 
 
@@ -248,6 +250,7 @@ footer div p
 }
 
 
+
 /* --------------------------------- LISTE ARTICLES ----------------------------------- */
 
 #articles
@@ -269,8 +272,9 @@ footer div p
 	border-left: 5px dotted SandyBrown;
 	border-right: 5px dotted SandyBrown;
 	width : 75%;
-	margin-bottom: 50px;
 	margin-top: 50px;
+
+	border : 3px solid red ;
 
 }
 
@@ -282,6 +286,8 @@ footer div p
 
 	border: 1px solid SandyBrown;
 }
+
+
 
 .titreart
 {
@@ -308,6 +314,7 @@ footer div p
 
 #carte
 {
+	flex-wrap: wrap;
 	font-family: "simplicity";
 	font-size: large;
 	border-left: 2px solid SandyBrown;
@@ -381,4 +388,70 @@ footer div p
 {
 	transform: scale(1.2);
 	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+}
+
+
+/* ------------- TEXTE DESCRIPTION ----------------- */
+
+#descrart
+{
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	align-items : center;
+	border-left: 5px dotted SandyBrown;
+	border-right: 5px dotted SandyBrown;
+	width : 100%;
+	margin-bottom: 50px;
+	margin-top: 30px;
+
+	border : 3px solid red ;
+
+
+}
+
+.description
+{
+	display : flex;
+	justify-content : center;
+	text-align: justify;
+	align-items : center;
+	flex-direction: column;
+	width : 75%;
+	border : 3px solid blue;
+	margin : 0px;
+}
+
+#titredesc
+{
+	font-family: "simplicity";
+	font-weight: bolder;
+	font-size: 40px;
+	color : Maroon;
+	border-bottom: 2px solid SandyBrown;
+	margin: 0px;
+}
+
+.description .texte
+{
+	display: inline-block;
+
+	font-family: "simplicity";
+	font-size: 20px;
+	color : maroon;
+	margin-bottom: 50px;
+}
+
+/* ---------------------------- PARTIE COMMENTAIRES ------------------ */
+
+.description .commentaire
+{
+	font-family: "simplicity";
+	font-weight: bolder;
+	font-size: 40px;
+	color : Maroon;
+	border-bottom: 2px solid SandyBrown;
+	
+	margin: 0px;
+	
 }
