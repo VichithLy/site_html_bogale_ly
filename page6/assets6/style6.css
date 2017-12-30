@@ -125,7 +125,7 @@ form
 }
 
 
-header ul
+header div
 {
 	display : flex;
 	justify-content : center;
@@ -134,7 +134,7 @@ header ul
 }
 
 
-header ul p
+header div p
 {
 	font-family: "simplicity";
 	font-size: x-large;
@@ -142,7 +142,7 @@ header ul p
 
 
 
-header ul img 
+header div img 
 {
 	
 	width: 60px;
@@ -248,3 +248,18 @@ footer div p
 }
 
 
+@font-face
+{
+	font-family : 'simplicity';
+	src: url('simplicity.ttf');
+}
+
+main {
+	margin: 10px;
+	font-family : "simplicity"
+}
+
+img  {
+	margin-right : 200px; 
+}
+	

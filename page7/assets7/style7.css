@@ -1,4 +1,4 @@
-/*
+/**
 {
 	border : 0.5px solid black;
 }
@@ -125,7 +125,7 @@ form
 }
 
 
-header ul
+header div
 {
 	display : flex;
 	justify-content : center;
@@ -134,7 +134,7 @@ header ul
 }
 
 
-header ul p
+header div p
 {
 	font-family: "simplicity";
 	font-size: x-large;
@@ -142,7 +142,7 @@ header ul p
 
 
 
-header ul img 
+header div img 
 {
 	
 	width: 60px;
@@ -239,6 +239,27 @@ footer
 	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
 }
 
+
+main 
+{
+	font-family: "simplicity";
+	display : flex;
+	justify-content : center;
+	text-align: center;
+	flex-direction: column;
+	align-items : center;
+	font-weight: bolder;
+	font-size: large;
+	margin-bottom: 50px;
+}
+
+
+main img {
+	width:20px;
+	height:20px;
+}
+
+
 footer div p 
 {
 	font-family: "simplicity";
@@ -247,21 +268,11 @@ footer div p
 	margin-right: 10px;
 }
 
-main 
+
+.phcontact
 {
-	font-family: "GROBOLD";
-	margin : 10px;
-}
-
-main img {
-	width:20px;
-	height:20px;
-}
-
-
-@font-face
-{
-	font-family : 'GROBOLD';
-	src: url('simplicity.ttf');
+	font-weight: bolder;
+	font-size: 25px;
+	color:maroon;
 }
 

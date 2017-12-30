@@ -1,4 +1,4 @@
-/*
+/**
 {
 	border : 0.5px solid black;
 }
@@ -125,7 +125,7 @@ form
 }
 
 
-header ul
+header div
 {
 	display : flex;
 	justify-content : center;
@@ -134,7 +134,7 @@ header ul
 }
 
 
-header ul p
+header div p
 {
 	font-family: "simplicity";
 	font-size: x-large;
@@ -142,7 +142,7 @@ header ul p
 
 
 
-header ul img 
+header div img 
 {
 	
 	width: 60px;
@@ -247,23 +247,49 @@ footer div p
 	margin-right: 10px;
 }
 
-
-main ul  li {
-	
-	margin : 10px;
+main
+{
+	display: flex;
+	width : 100%;
+	justify-content: center;
 }
- 
-main {
-	margin : 20px;
+
+main nav
+{
 	font-family: "simplicity";
+	display : flex;
+	justify-content : flex-start;
+	flex-direction: column;
+	font-weight: bolder;
+	font-size: large;
+	margin-bottom: 50px;
+	color : maroon;
+	width : 70%;
+	
 }
 
-.champ {
-	width: 300px;
+main nav div
+{
+	margin : 5px;
 }
 
-ul {
+main nav button
+{
+	width : 60px;
+	margin-top: 10px;
+}
+
+div {
 	list-style:none;
+}
+
+#interet
+{
+	display: flex;
+	justify-content : center;
+	font-weight: bolder;
+	font-size: 25px;
+	color:maroon;
 }
 
 @font-face
