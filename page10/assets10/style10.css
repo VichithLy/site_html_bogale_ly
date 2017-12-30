@@ -1,4 +1,4 @@
-*
+/*
 {
 	border : 0.5px solid black;
 }
@@ -274,8 +274,6 @@ footer div p
 	width : 75%;
 	margin-top: 50px;
 
-	border : 3px solid red ;
-
 }
 
 .listeart img
@@ -399,14 +397,15 @@ footer div p
 	justify-content : center;
 	text-align: center;
 	align-items : center;
+	
+	width : 75%;
+	margin-bottom: 50px;
 	border-left: 5px dotted SandyBrown;
 	border-right: 5px dotted SandyBrown;
-	width : 100%;
-	margin-bottom: 50px;
-	margin-top: 30px;
-
-	border : 3px solid red ;
-
+	padding-top: 50px;
+	margin-top: 5px;
+	
+	
 
 }
 
@@ -417,9 +416,8 @@ footer div p
 	text-align: justify;
 	align-items : center;
 	flex-direction: column;
-	width : 75%;
-	border : 3px solid blue;
-	margin : 0px;
+	width : 90%;
+	
 }
 
 #titredesc
@@ -438,6 +436,7 @@ footer div p
 
 	font-family: "simplicity";
 	font-size: 20px;
+	font-weight: bolder;
 	color : maroon;
 	margin-bottom: 50px;
 }
@@ -451,7 +450,39 @@ footer div p
 	font-size: 40px;
 	color : Maroon;
 	border-bottom: 2px solid SandyBrown;
-	
 	margin: 0px;
+}
+
+.description .commentaire2
+{
+	font-family: "simplicity";
+	font-weight: bolder;
+	font-size: large;
+	color : Maroon;
+	width: 100%;
+	margin-top : 20px;
 	
+}
+
+.ecrire
+{
+	width: 100%;
+	background-color: none;
+}
+
+.ecrire p
+{
+	font-family: "simplicity";
+}
+.ecrire form
+{
+	display: flex;
+	justify-content: flex-end;
+	width: 305px;
+
+}
+
+.ecrire .envoie
+{
+	margin-right: 5px;
 }
