@@ -45,14 +45,14 @@ body
 	align-items : center;
 	height: 100%;
 	padding-left : 25px;
-	padding-right: 25px;
-	height: 60px;	
+	padding-right: 25px;	
 }
 
 #menu2 ul 
 {
 	display : flex;
 	justify-content : center;
+	flex-wrap: wrap;
 	background-color: SandyBrown;
 	list-style:none;
 	width: 70%;

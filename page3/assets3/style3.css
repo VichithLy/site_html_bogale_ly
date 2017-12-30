@@ -54,10 +54,11 @@ body
 {
 	display : flex;
 	justify-content : center;
+	flex-wrap: wrap;
 	background-color: SandyBrown;
 	list-style:none;
 	width: 70%;
-	height: 60px;
+	
 }
 
 #first

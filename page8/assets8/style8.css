@@ -54,6 +54,7 @@ body
 {
 	display : flex;
 	justify-content : center;
+	flex-wrap: wrap;
 	background-color: SandyBrown;
 	list-style:none;
 	width: 70%;
@@ -125,7 +126,7 @@ form
 }
 
 
-header ul
+header div
 {
 	display : flex;
 	justify-content : center;
@@ -134,7 +135,7 @@ header ul
 }
 
 
-header ul p
+header div p
 {
 	font-family: "simplicity";
 	font-size: x-large;
@@ -142,7 +143,7 @@ header ul p
 
 
 
-header ul img 
+header div img 
 {
 	
 	width: 60px;
@@ -276,10 +277,11 @@ footer div p
 
 .listeart img
 {
+	display: flex;
+
 	height: auto;
 	width: 250px;
 	margin: 50px 50px 0px 50px;
-
 	border-top: 3px solid SandyBrown;
 	border-left: 3px solid SandyBrown;
 	border-right: 3px solid SandyBrown;
@@ -287,8 +289,11 @@ footer div p
 
 .listeart p
 {
+	display: flex;
+	text-align: center;
+	
 	width: 250px;
-	margin: 0px 52px 0px 52px;
+	margin: 0px 50px 0px 50px;
 	font-family: "simplicity";
 	font-size: large;
 	font-weight: bold; 
@@ -301,8 +306,11 @@ footer div p
 
 .listeart .prix
 {
+	display: flex;
+	justify-content: center;
+
 	width: 250px;
-	margin: 0px 52px 0px 52px;
+	margin: 0px 50px 0px 50px;
 	font-size: xx-large;
 	border-bottom: 3px solid SandyBrown;
 	border-left: 3px solid SandyBrown;
@@ -311,6 +319,7 @@ footer div p
 	padding-top: 10px;
 }
 
+	
 .titreart
 {
 	display : flex;
